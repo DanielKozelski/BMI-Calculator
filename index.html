@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Varela+Round&display=swap" rel="stylesheet">
+    <title>BMI Calculator</title>
+</head>
+<body>
+    <form name="bmiForm">
+        <h2>Body Mass Index Calculator</h2>
+        * Sinu Kaal(kg): <input type="text" name="weight" size="10"><br />
+        * Sinu Pikkus(cm): <input type="text" name="height" size="10"><br />
+        <input type="button" value="Calculate BMI" onClick="calculateBmi()"><br />
+        Sinu BMI on: <input type="text" name="bmi" size="10"><br />
+        See tähendab et: <input type="text" name="meaning" size="25"><br />
+        <input type="reset" value="Reset" />
+        </form>
+    <script src="app.js"></script>
+</body>
+</html>
